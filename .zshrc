@@ -45,7 +45,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man colorize vagrant virtualenv pip python brew osx zsh-syntax-highlighting docker)
+plugins=(git colored-man colorize vagrant virtualenv pip python brew osx zsh-syntax-highlighting docker kubectl aws zsh-autosuggestions)
 
 #plugins=(git git-extras git-flow virtualenvwrapper pip python fabric django virtualenv)
 
@@ -93,11 +93,6 @@ export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 export PIP_VIRTUALENV_BASE=$WORKON_HOME 
 # makes pip detect an active virtualenv and install to it 
 export PIP_RESPECT_VIRTUALENV=true 
-if [[ -r /usr/local/bin/virtualenvwrapper.sh ]]; then 
- source /usr/local/bin/virtualenvwrapper.sh 
-else 
- echo "WARNING: Can't find virtualenvwrapper.sh" 
-fi
 
 ###########################
 
@@ -111,3 +106,4 @@ done;
 unset file;
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+export PATH="/usr/local/sbin:$PATH"
