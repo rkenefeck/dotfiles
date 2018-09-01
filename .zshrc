@@ -45,7 +45,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man colorize vagrant virtualenv pip python brew osx zsh-syntax-highlighting docker kubectl aws zsh-autosuggestions)
+plugins=(git colored-man colorize vagrant virtualenv pip python brew osx zsh-syntax-highlighting docker kubectl aws zsh-autosuggestions terraform)
 
 #plugins=(git git-extras git-flow virtualenvwrapper pip python fabric django virtualenv)
 
@@ -107,3 +107,7 @@ unset file;
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 export PATH="/usr/local/sbin:$PATH"
+# GO
+export GOPATH="$HOME/go"
+export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"

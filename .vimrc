@@ -32,6 +32,8 @@ set clipboard=unnamed   " allow yy, etc. to interact with OS X clipboard
 set background=dark
 colorscheme solarized
 
+
+
 " Automatic commands
 if has("autocmd")
     " Enable file type detection
