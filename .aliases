@@ -131,7 +131,8 @@ alias gitlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cres
 alias sshexxoss='ssh fallback.exxoss.com -p 2122'
 
 
-
+alias savebox='curl -v "https://savebox.lampiris.be/remote.php/webdav/"'
 
 alias cat='bat'
+alias ping='prettyping --nolegend'
 

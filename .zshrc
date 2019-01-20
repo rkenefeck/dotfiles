@@ -111,3 +111,9 @@ export PATH="/usr/local/sbin:$PATH"
 export GOPATH="$HOME/go"
 export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
