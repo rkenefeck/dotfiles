@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/deri/.oh-my-zsh
+export ZSH=/Users/robkenefeck/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -51,7 +51,7 @@ plugins=(git colored-man colorize vagrant virtualenv pip python brew osx zsh-syn
 
 # User configuration
 
-#export PATH="/Users/deri/bin/Sencha/Cmd/5.0.3.324:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/MacGPG2/bin"
+#export PATH="/Users/robkenefeck/bin/Sencha/Cmd/5.0.3.324:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/MacGPG2/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
